@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3156390584868593877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3156390584868593876}
+  - component: {fileID: 3156390584868593879}
+  m_Layer: 0
+  m_Name: DrawSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3156390584868593876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3156390584868593877}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 787.50616, y: 1302.3188, z: -203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3156390584868593879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3156390584868593877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9bd9580b265464094f8be70febbd64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keepTrackOfChangesSelective: 1
+  brushes:
+  - name: BasicBrush
+    didChange: 0
+    brushMaterial: {fileID: 2100000, guid: 3552ba23fc285cf4494f324170d3a236, type: 2}
+    color: {r: 0.5686275, g: 0.36862746, b: 0.654902, a: 1}
+    extrudeShapeSettings:
+      type: 7
+      scale: 1
+      segments: 3
+      customParameter01: 0.2
+      separateVerticesAlongCurve: 1
+      beginWithZeroWidth: 1
+      endWithZeroWidth: 1
+    splinePathSettings:
+      smoothUpVectorFactor: 0.5
+      flipUpVectorCalculationsActive: 1
+      controlPointLengthPercent: 0.4
+      pointSampleMinDistance: 0.05
+      curveSubSegmentMinLength: 1
+      bendSplitsSplines: 0
+      keepSimplifyingAfterSplineEnds: 1
+      simplifyStraightSectionsBelowAngle: 5
+      simplifyStraightSectionsBelowWidthDiff: 0.05
+    splineWidthSettings:
+      keepAnimatingAfterSplineEnded: 0
+    pointWidthSettings:
+      widthAnimationTime: 0.5
+      fixedThickness: 0.04
+      fixedWidth: 0.04
+      useFixedWidth: 1
+      thicknessFollowsWidth: 1
+      minWidth: 0.03
+      maxWidth: 0.3
+      maxWidthChangePct: 0.01
+      speedAffectWidthFactor: -0.5
+      maxSpeedToAffectWidth: 6
+      speedAffectWidthRamp:
+      - 0
+      - 1
+      widthTargetAnimationRamp:
+      - 0
+      - 2
+      - 1
+      - 0.9
+      - 1
+    customParameters: []

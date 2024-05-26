@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &129116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 446866}
+  - 114: {fileID: 11440284}
+  m_Layer: 0
+  m_Name: Settings [mano]
+  m_TagString: SETTINGS
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &446866
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129116}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.0468578, y: -0.2687049, z: -1.1145571}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11440284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9bd9580b265464094f8be70febbd64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keepTrackOfChangesSelective: 0
+  brushes:
+  - name: ManoSpeedWidth
+    didChange: 0
+    brushMaterial: {fileID: 2100000, guid: 3552ba23fc285cf4494f324170d3a236, type: 2}
+    color: {r: 0.24705884, g: 0.69803923, b: 0.5686275, a: 1}
+    extrudeShapeSettings:
+      type: 7
+      scale: 1
+      segments: 3
+      customParameter01: 0.2
+      separateVerticesAlongCurve: 1
+      beginWithZeroWidth: 1
+      endWithZeroWidth: 1
+    splinePathSettings:
+      smoothUpVectorFactor: 0.5
+      flipUpVectorCalculationsActive: 1
+      controlPointLengthPercent: 0.4
+      pointSampleMinDistance: 0.05
+      curveSubSegmentMinLength: 1
+      bendSplitsSplines: 0
+      keepSimplifyingAfterSplineEnds: 1
+      simplifyStraightSectionsBelowAngle: 5
+      simplifyStraightSectionsBelowWidthDiff: 0.05
+    splineWidthSettings:
+      keepAnimatingAfterSplineEnded: 1
+    pointWidthSettings:
+      widthAnimationTime: 0.5
+      fixedThickness: 0.1
+      fixedWidth: 0.2
+      useFixedWidth: 0
+      thicknessFollowsWidth: 1
+      minWidth: 0.03
+      maxWidth: 0.5
+      maxWidthChangePct: 0.1
+      speedAffectWidthFactor: -1
+      maxSpeedToAffectWidth: 6
+      speedAffectWidthRamp:
+      - 0
+      - 1
+      widthTargetAnimationRamp:
+      - 0
+      - 0.5
+      - 1
+      - 0.9
+      - 1
+    customParameters: []
+  - name: ManoFixedWidth
+    didChange: 0
+    brushMaterial: {fileID: 2100000, guid: 3552ba23fc285cf4494f324170d3a236, type: 2}
+    color: {r: 0.9191176, g: 0.5537078, b: 0.16219722, a: 1}
+    extrudeShapeSettings:
+      type: 7
+      scale: 1
+      segments: 3
+      customParameter01: 0.2
+      separateVerticesAlongCurve: 1
+      beginWithZeroWidth: 1
+      endWithZeroWidth: 1
+    splinePathSettings:
+      smoothUpVectorFactor: 0.5
+      flipUpVectorCalculationsActive: 1
+      controlPointLengthPercent: 0.4
+      pointSampleMinDistance: 0.05
+      curveSubSegmentMinLength: 1
+      bendSplitsSplines: 0
+      keepSimplifyingAfterSplineEnds: 1
+      simplifyStraightSectionsBelowAngle: 5
+      simplifyStraightSectionsBelowWidthDiff: 0.05
+    splineWidthSettings:
+      keepAnimatingAfterSplineEnded: 1
+    pointWidthSettings:
+      widthAnimationTime: 0.6
+      fixedThickness: 0.1
+      fixedWidth: 0.3
+      useFixedWidth: 1
+      thicknessFollowsWidth: 1
+      minWidth: 0.01
+      maxWidth: 0.5
+      maxWidthChangePct: 0.5
+      speedAffectWidthFactor: -1
+      maxSpeedToAffectWidth: 4
+      speedAffectWidthRamp:
+      - 0
+      - 1
+      widthTargetAnimationRamp:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0.15
+      - 0.2
+      - 0.5
+      - 1
+    customParameters: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 129116}
+  m_IsPrefabParent: 1
